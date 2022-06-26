@@ -33,7 +33,7 @@ a {
   font-size: 18px;
 }
 
-.hero-section {
+.shoe-section {
   display: flex;
   justify-content: space-between;
   gap: 150px;
@@ -42,18 +42,18 @@ a {
   padding: 7% 12%;
 }
 
-.hero-sign-up {
+.shoe-sign-up {
   flex: 1 0 auto;
   width: 500px;
 }
 
-.hero-title {
+.shoe-title {
   font-size: 48px;
   color: #F9FAF8;
   font-weight: bolder;
 }
 
-.hero-text {
+.shoe-text {
   font-size: 18px;
   color: #E5E7EB;
   margin-bottom: 12px;
@@ -90,6 +90,7 @@ a {
 
 .info-container {
   display: flex;
+  justify-content: space-evenly;
   text-align: center;
   gap: 72px;
   padding-bottom: 52px;
@@ -98,24 +99,14 @@ a {
 .info-item {
   display: flex;
   flex-flow: column wrap;
-  flex: 1;
   width: 180px;
   margin-bottom: 46px;
 }
 
 .item-image {
-  width: 180px;
-  height: 180px;
+  width: 220px;
+  height: 220px;
   border-radius: 5px;
-}
-
-.item-box {
-  width: 180px;
-  height: 180px;
-  outline-width: 5px;
-  border-radius: 10px;
-  outline-style: solid;
-  outline-color: #3882F6;
   margin-bottom: 8px;
 }
 
