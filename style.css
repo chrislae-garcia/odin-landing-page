@@ -5,6 +5,8 @@ body {
   margin: 0;
 }
 
+/* Header and navigation links */
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -32,6 +34,8 @@ a {
   margin-left: 20px;
   font-size: 18px;
 }
+
+/* Shoe section */
 
 .shoe-section {
   display: flex;
@@ -70,9 +74,12 @@ a {
 }
 
 .shoe-1 {
-  max-width: 600px;
+  flex: 1 1 auto;
+  width: 600px;
   border-radius: 10px;
 }
+
+/* Best seller section */
 
 .info-section {
   display: flex;
@@ -115,6 +122,8 @@ a {
   color: #464646;
 }
 
+/* Quotation section */
+
 .quote-section {
   display: flex;
   flex-direction: column;
@@ -136,6 +145,7 @@ a {
   padding-right: 48px;
 }
 
+/* Call-to-action section */
 
 .cta-container {
   display: flex;
@@ -168,6 +178,8 @@ a {
   outline-width: 2px;
   padding: 4px 26px;
 }
+
+/* Footer */
 
 .footer {
   background-color: #1F2937;
